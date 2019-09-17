@@ -191,7 +191,7 @@ const jsonParser = (input) => {
 }
 const fs = require('fs')
 //for(let z=1 ;z<34;z++){
-fs.readFile(`../test/passGS.json`, (err, data) => {
+fs.readFile(`./test/passGS.json`, (err, data) => {
   if (err) throw err
   console.log(jsonParser(data.toString()))
 })//}
